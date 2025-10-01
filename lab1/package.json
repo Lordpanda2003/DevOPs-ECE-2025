@@ -1,0 +1,16 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "Lab 1 dans le cardre de TP de Devops/ simple Hello world en node et express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "MONEZE PARFAIT-JUNIOR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
