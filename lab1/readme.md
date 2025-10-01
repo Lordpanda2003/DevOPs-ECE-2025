@@ -200,6 +200,3 @@ Example structure is provided in this file.
 * Course: *DevOps / Technology Web – ECE*
 * Date: *01-10-2025*
 
----
-
-✅ After completing this lab, you will have a **documented Node.js project** with a working web server and a professional structure suitable for DevOps workflows.
