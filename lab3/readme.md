@@ -1,44 +1,59 @@
 
-# 📝 Lab 3
+# Lab 3 – Git Basics
 
-Ce dossier contient les fichiers et exercices pour le **Lab 3** du cours de Technologie Web / DevOps à l’ECE.
+## Objectifs
+- Suivre le tutoriel GitHub Desktop
+- Créer et cloner un dépôt
+- Créer et naviguer entre les branches
+- Modifier un fichier et pousser les changements
+- Gérer les conflits
+- Refaire le lab avec la CLI Git
 
----
-
-## 🔹 Objectif du Lab
-Le but de ce lab est de mettre en pratique les concepts abordés en cours et de préparer les fichiers nécessaires pour vos travaux futurs.
-
----
-
-## 📂 Contenu du dossier
-Pour l’instant, ce dossier est vide.  
-Vous pourrez y ajouter :  
-- Scripts et programmes liés au Lab 3  
-- Fichiers de configuration ou ressources nécessaires  
-- Documentation complémentaire  
+## 1. Tutoriel GitHub Desktop
+- Lancer GitHub Desktop et créer un dépôt tutoriel  
+- Suivre les instructions pas à pas
 
 ---
 
-## 🚀 Instructions
-1. Clonez le dépôt principal et naviguez jusqu’au Lab 3 :  
+## 2. Créer et cloner un dépôt
+- Créer un dépôt sur GitHub (public, avec README et .gitignore Node)
+- Ajouter les collaborateurs
+- Cloner le dépôt avec GitHub Desktop ou `git clone https://github.com/Lordpanda2003/DevOPs-ECE-2025.git`
+
+---
+
+## 3. Branches
+- Créer `develop` : **Current branch → New branch**
+- Naviguer entre `master` et `develop`
+
+---
+
+## 4. Modifier et pousser
+- Modifier `README.md`
+- Commit et push sur `develop`  
+- Les autres membres : **Fetch origin** → basculer sur `develop`
+
+---
+
+## 5. Gérer les conflits
+- Créer des branches à partir de `develop`
+- Modifier le même fichier
+- Commit et push  
+- Merge dans `develop`  
+- Résoudre les conflits dans l’IDE puis commit
+
+---
+
+## 6. Refaire avec CLI Git
+- Installer Git si nécessaire
+- Répéter toutes les étapes en ligne de commande :
 ```bash
-cd projet-technologie-web/lab3
-````
-
-2. Ajoutez vos fichiers et commencez à travailler sur le lab.
-3. Commitez régulièrement vos modifications avec des messages clairs :
-
-```bash
-git add .
-git commit -m "Ajout des fichiers pour Lab 3"
-git push origin <votre-branche>
+git clone <https://github.com/Lordpanda2003/DevOPs-ECE-2025.git>
+git checkout -b parfait
+git add README.md
+git commit -m "message"
+git push origin develop
+git merge main
 ```
 
----
 
-## 👨‍💻 Auteur
-
-* Nom : *MONEZE PARFAIT-JUNIOR*
-* Date : *01-10-2025*
-
----
