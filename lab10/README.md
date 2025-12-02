@@ -37,14 +37,14 @@ kubectl label namespace default istio-injection=enabled
 kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 kubectl apply -f samples/bookinfo/networking/bookinfo-gateway.yaml
 ```
-
+![alt text](<Screenshot From 2025-11-12 15-14-06.png>)
 Vérification :
 
 ```
 kubectl get services
 kubectl get pods
 ```
-
+![alt text](<Screenshot From 2025-11-12 15-14-47.png>)
 Obtenir l’URL du gateway :
 
 ```

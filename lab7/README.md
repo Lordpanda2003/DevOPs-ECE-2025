@@ -1,6 +1,3 @@
-Voici un README court et synthétique pour le **Lab 7**, prêt à copier-coller :
-
----
 
 # Lab 7 – Docker & Docker Compose
 
@@ -52,7 +49,7 @@ docker push <DOCKER_ACCOUNT>/<IMAGE_NAME>
 docker pull <DOCKER_ACCOUNT>/<IMAGE_NAME>
 docker run -p 12345:8080 -d <DOCKER_ACCOUNT>/<IMAGE_NAME>
 ```
-
+![alt text](<Screenshot From 2025-11-05 00-13-33.png>)
 ---
 
 ## 5. Docker Compose (multi-conteneurs)
@@ -64,7 +61,7 @@ docker-compose up
 CTRL+C
 docker-compose rm
 ```
-
+![alt text](<Screenshot From 2025-11-05 00-28-50.png>)
 Pour persister les données du compteur, configurer un volume Docker pour Redis (`/data`).
 
 ---
@@ -72,3 +69,4 @@ Pour persister les données du compteur, configurer un volume Docker pour Redis 
 ## Bonus
 
 * Lancer WordPress avec MySQL via Docker Compose.
+![alt text](<Screenshot From 2025-11-05 00-41-47.png>)
